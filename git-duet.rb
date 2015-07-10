@@ -1,8 +1,8 @@
 class GitDuet < Formula
   homepage 'https://github.com/git-duet/git-duet'
-  url 'https://github.com/git-duet/git-duet/releases/download/0.1.0/darwin_amd64.tar.gz'
-  sha256 '47e33a01b21aa940a7f8a9551aabb75b275fe65c08398ea417994df6e851195a'
-  version '0.1.0'
+  url 'https://github.com/git-duet/git-duet/releases/download/0.2.0/darwin_amd64.tar.gz'
+  sha256 'cdf45e16a4bb027c7a17ad010ab2633a77613578b44c2550a70dd969e5f9da23'
+  version '0.2.0'
 
   depends_on :arch => :x86_64
 
