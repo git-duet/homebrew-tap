@@ -13,7 +13,7 @@ class GitDuet < Formula
   depends_on :arch => :x86_64
 
   def install
-    %w( git-duet git-duet-commit git-duet-revert git-duet-install-hook git-duet-pre-commit git-solo).each do |exe|
+    %w[git-duet git-duet-commit git-duet-revert git-duet-install-hook git-duet-pre-commit git-solo].each do |exe|
       bin.install exe
     end
   end
