@@ -1,4 +1,5 @@
 class GitDuet < Formula
+  desc "Pairing tool for Git"
   homepage 'https://github.com/git-duet/git-duet'
   if OS.mac?
     url 'https://github.com/git-duet/git-duet/releases/download/0.3.1/darwin_amd64.tar.gz'
