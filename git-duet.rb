@@ -1,13 +1,13 @@
 class GitDuet < Formula
   desc "Pairing tool for Git"
   homepage "https://github.com/git-duet/git-duet"
-  version "0.3.1"
+  version "0.5.0"
   if OS.mac?
-    url "https://github.com/git-duet/git-duet/releases/download/0.3.1/darwin_amd64.tar.gz"
-    sha256 "af2e048cda79606d3c90a89ae16a1f0d99866b43daabf01bda340f019a681617"
+    url "https://github.com/git-duet/git-duet/releases/download/0.5.0/darwin_amd64.tar.gz"
+    sha256 "adc9fe97c99e92fdb160ad29413ec437e125d454590f41be1b91924a4c9efb09"
   elsif OS.linux?
-    url "https://github.com/git-duet/git-duet/releases/download/0.3.1/linux_amd64.tar.gz"
-    sha256 "d704f50ad4e4d10b2d99de82998247548a4f72c269f5e41d076baf4454e8c02f"
+    url "https://github.com/git-duet/git-duet/releases/download/0.5.0/linux_amd64.tar.gz"
+    sha256 "e4f767b4c41772641b9178ed3f1d45f6f5f1d3b9b8509fe7016f5376aa181474"
   end
 
   depends_on :arch => :x86_64
