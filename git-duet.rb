@@ -19,6 +19,6 @@ class GitDuet < Formula
   end
 
   test do
-    system "git duet -h"
+    system "git", "duet", "-h"
   end
 end
