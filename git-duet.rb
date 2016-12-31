@@ -19,6 +19,6 @@ class GitDuet < Formula
   end
 
   test do
-    system "git", "duet", "-h"
+    assert_match /#{version.to_s}/, `git duet -v 2>&1`.chomp
   end
 end
