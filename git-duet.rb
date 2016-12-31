@@ -4,10 +4,10 @@ class GitDuet < Formula
   version "0.5.0"
   if OS.mac?
     url "https://github.com/git-duet/git-duet/releases/download/0.5.0/darwin_amd64.tar.gz"
-    sha256 "adc9fe97c99e92fdb160ad29413ec437e125d454590f41be1b91924a4c9efb09"
+    sha256 "88050ceb98480a7917106180c4d81764f94db5719ad3b458b90ac7af6cee9849"
   elsif OS.linux?
     url "https://github.com/git-duet/git-duet/releases/download/0.5.0/linux_amd64.tar.gz"
-    sha256 "e4f767b4c41772641b9178ed3f1d45f6f5f1d3b9b8509fe7016f5376aa181474"
+    sha256 "37ddd1285b5a58c4c3f03cc310a5b0d4af7eaa7a24ce44fd69206fe25aabd949"
   end
 
   depends_on :arch => :x86_64
