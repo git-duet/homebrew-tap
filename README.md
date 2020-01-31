@@ -3,6 +3,5 @@
 To install `git-duet` with Homebrew:
 
 ```bash
-$ brew tap git-duet/tap
-$ brew install git-duet
+brew install git-duet/tap/git-duet
 ```
