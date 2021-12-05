@@ -5,11 +5,11 @@ class GitDuet < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/git-duet/git-duet/releases/download/0.9.0/darwin_arm64.tar.gz"
-      sha256 "3e6b20dd909a0b47763f6659828ad5b3860dcf8995ff12d221d911b8ecdd51c3"
-    elsif Hardware::CPU.arm?
       url "https://github.com/git-duet/git-duet/releases/download/0.9.0/darwin_amd64.tar.gz"
       sha256 "7e72fb8425f49cf436ab3808273cb1013719ae39a66169adf0a1c2c8aa4a72fc"
+    elsif Hardware::CPU.arm?
+      url "https://github.com/git-duet/git-duet/releases/download/0.9.0/darwin_arm64.tar.gz"
+      sha256 "3e6b20dd909a0b47763f6659828ad5b3860dcf8995ff12d221d911b8ecdd51c3"
     end
   end
 
