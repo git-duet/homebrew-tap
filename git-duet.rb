@@ -1,22 +1,22 @@
 class GitDuet < Formula
   desc "Pairing tool for Git"
   homepage "https://github.com/git-duet/git-duet"
-  version "0.9.0"
+  version "0.10.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/git-duet/git-duet/releases/download/0.9.0/darwin_amd64.tar.gz"
-      sha256 "3e6b20dd909a0b47763f6659828ad5b3860dcf8995ff12d221d911b8ecdd51c3"
+      url "https://github.com/git-duet/git-duet/releases/download/0.10.0/darwin_amd64.tar.gz"
+      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     elsif Hardware::CPU.arm?
-      url "https://github.com/git-duet/git-duet/releases/download/0.9.0/darwin_arm64.tar.gz"
-      sha256 "7e72fb8425f49cf436ab3808273cb1013719ae39a66169adf0a1c2c8aa4a72fc"
+      url "https://github.com/git-duet/git-duet/releases/download/0.10.0/darwin_arm64.tar.gz"
+      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/git-duet/git-duet/releases/download/0.9.0/linux_amd64.tar.gz"
-      sha256 "216d8b3f4d72660bd01f7b66e07be515befa377e7a783c74c8dfa76d94d61e22"
+      url "https://github.com/git-duet/git-duet/releases/download/0.10.0/linux_amd64.tar.gz"
+      sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     end
   end
 
